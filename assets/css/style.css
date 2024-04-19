@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-head{
+    background-color: rgb(21, 200, 21);
+    color: white;
+    padding: 5px 125px;
+    /* width: 100%;
+    height: 28px; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* .top-head .left{
+    float: left;
+}
+
+.top-head .right{
+    float: right;
+} */
+
+.top-head p{
+   display: inline;
+
+}
+
+.top-head a{
+    color: rgb(139, 216, 139);
+}
+
+/* Header section css start*/
+header{
+    background-color: rgb(19, 159, 19);
+    width: 100%;
+    height: 90px;
+    padding: 0px 125px;
+    /* display: flex;
+    align-items: center; */
+    line-height: 90px;
+   
+}
+
+header h1, header h4{
+    display: inline;
+    color: #fff;
+    
+}
+/* Header sectin css end */
