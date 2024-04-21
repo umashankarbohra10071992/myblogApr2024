@@ -50,3 +50,78 @@ header h1, header h4{
     
 }
 /* Header sectin css end */
+
+/* NAV SECTION START */
+nav{
+    background-color: rgb(37, 184, 37);
+    width: 100%;
+    padding: 5px 125px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 30px;
+    color: black;
+}
+/* NAV SECTION END */
+
+.main{
+    padding: 5px 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main article{
+    padding: 10px 20px 10px 0px;
+}
+
+.main article p{
+    padding: 5px 0px;
+    text-align: justify;
+}
+
+.main article p a{
+    text-decoration: none;
+    color: rgb(22, 169, 22);
+}
+
+aside{
+    background: silver;
+    padding: 10px 50px 10px 50px;
+}
+
+aside h3{
+    padding-top: 10px;
+}
+aside ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+
+footer{
+    background: green;
+    color: #fff;
+    width: 100%;
+    height: 125px;
+    padding: 10px 125px;
+}
+
+footer .first{
+    float: left;
+    margin-right: 100px;
+}
+
+footer .second{
+    float: left;
+}
+
+footer .third{
+    float: right;
+}
